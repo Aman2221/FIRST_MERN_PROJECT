@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+.StudentsDashboard {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.StudentsDashboard ul {
+  border: 1px solid;
+  display: flex;
+  gap: 100px;
+  width: 100%;
+  line-height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.StudentsDashboard ul li {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.fas,
+.far {
+  position: relative;
+  top: -2px;
+  left: -5px;
+  font-size: 15px !important;
+}
+@media screen and (max-width: 468px) {
+  .StudentsDashboard ul {
+    border: 1px solid;
+    gap: 10px;
+    width: 100%;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .table_head {
+    font-size: 15px !important;
+  }
+  .table_data {
+    font-size: 12px;
+  }
+}
